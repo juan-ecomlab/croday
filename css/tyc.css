@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     font-size: 30px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 ol {
@@ -37,8 +41,12 @@ footer {
     background-image: linear-gradient(to bottom, #94dc9e, #cafee0, #e1f7ea, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #e0e2f7, #d0c9f8, #abaef4);
 }
 
-footer img {
+footer a {
     width: 10%;
+}
+
+footer a img {
+    width: 100%;
 }
 
 @media(max-width: 700px) {
