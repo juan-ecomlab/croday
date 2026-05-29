@@ -1,7 +1,7 @@
 const $ = id => document.getElementById(id);
 const emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
-const agregarEmail = async (email, client) => {
+/* const agregarEmail = async (email, client) => {
     const item = {
         email,
         client,
@@ -27,7 +27,7 @@ const agregarEmail = async (email, client) => {
         }).catch(e => {
             console.log(e);
             });
-}
+} */
 
 let fecha = new Date(2024, 11, 10, 12);
 let msFecha = fecha.getTime();
@@ -66,7 +66,7 @@ let intervalo = setInterval(() => {
 }, 1000);
 
 window.addEventListener('load', () => {
-    $('email').addEventListener('focus', () => {
+    /* $('email').addEventListener('focus', () => {
         $('error').innerText = ""
     })
 
@@ -103,7 +103,7 @@ window.addEventListener('load', () => {
             $("form").elements[1].value = ""
             $("form").elements[2].value = ""
         }
-    })
+    }) */
 
     $('hamburgIcon').addEventListener('click', () => {
         $("hamburgMostrar").classList.toggle("mostrar")
