@@ -1,6 +1,6 @@
 const $ = id => document.getElementById(id);
-const emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
-
+/* const emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+ */
 /* const agregarEmail = async (email, client) => {
     const item = {
         email,
@@ -29,7 +29,7 @@ const emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
             });
 } */
 
-let fecha = new Date(2024, 11, 10, 12);
+/* let fecha = new Date(2024, 11, 10, 12);
 let msFecha = fecha.getTime();
 
 let parrafoDias = $("dias")
@@ -63,7 +63,7 @@ let intervalo = setInterval(() => {
         countdown.innerHTML = ""
     }
 
-}, 1000);
+}, 1000); */
 
 window.addEventListener('load', () => {
     /* $('email').addEventListener('focus', () => {
